@@ -1,9 +1,11 @@
 
+
 body{
    width: 100vw;
    height: 300vh;
    margin: 0;
 }
+
 .header-visit{
     background-color: #3998d7;
     margin: 0;
@@ -103,7 +105,7 @@ body{
     background-color: #1a3b51;
     margin: 0;
     width: 1450px;
-    height: 950px;
+    height: 790px;
 }
 button{
     font-size: 20px;
@@ -137,11 +139,11 @@ button{
     color: #3180b4;
 }
 .photo-p{
-    margin: 20px 0 0 0 ;
+    margin: 2px 0 0 0 ;
     position: absolute;
-    padding: 40px;
-    width: 450px;
-    height: 650px;
+    padding: 50px;
+    width: 350px;
+    height: 550px;
     z-index: 1;
     display: flex;
     justify-content: space-between;
@@ -150,9 +152,9 @@ button{
 .text-p{
     color: #3180b4;
     position: absolute;
-    margin: 100px 0 0 0 ;
-    margin-left:550px;
-    padding: 50px 0 0 0;
+    margin: 60px 0 0 0 ;
+    margin-left:450px;
+    padding: 30px 0 0 0;
     flex-wrap: nowrap;
     z-index: 1;
     display: flex;
