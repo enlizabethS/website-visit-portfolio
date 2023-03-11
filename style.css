@@ -1,0 +1,246 @@
+
+body{
+   /* background-color: #3998d7; */
+   /* width: 1500px;
+   max-height: 500px ; */
+   /* height: 1000px; */
+   margin: 0;
+}
+.header-visit{
+    background-color: #3998d7;
+    margin: 0;
+    width: 1450px;
+    height: 100px;
+}
+.header{
+    background-color: #3180b4;
+    margin: 0;
+    width: 1500px;
+    height: 90px;
+    position: fixed;
+    top: 1px;
+    bottom: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 2;
+}
+.logo{
+    position: relative;
+    width: 80px;
+    height: 60px;
+    border-radius: 20px;
+    padding: 10px;
+}
+.welcome{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #1a3b51;
+    padding: 10px;
+}
+.s-logo{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.s-logo:hover{
+   background-color:#9ed5fa ;
+}
+.review{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.eye{
+    margin: 100px 0 0 0 ;
+    position: absolute;
+    padding: 50px;
+    width: 400px;
+    height: 350px;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.quadro{
+    width: 1px;
+    height: 400px;
+    background-color:#9ed5fa;
+    z-index: 1;
+    position: absolute;
+    margin: 120px 0 0 0 ;
+    margin-left: 500px;
+    padding: 10px 0 0 10px;
+    display: flex;
+}
+.text-eye{
+    color: #1a3b51;
+    position: absolute;
+    margin: 100px 0 0 0 ;
+    margin-left:600px;
+    padding: 50px 0 0 0;
+    flex-wrap: nowrap;
+    z-index: 1;
+    display: flex;
+    /* justify-content: space-between;
+    align-items: center; */
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.body-page{
+    background-color: #1a3b51;
+    margin: 0;
+    width: 1450px;
+    height: 950px;
+}
+button{
+    font-size: 20px;
+    background-color: #9ed5fa;
+    border-radius: 15px;
+    width: 120px;
+    height: 60px;
+    z-index: 1;
+    margin: 470px 0 0 0 ;
+    margin-left:950px;
+    padding: 50px 0 0 0;
+    border: #3180b4 solid 2px;
+    font-weight: 400;
+}
+#text-b{
+    padding: 4px;
+    text-align: center;
+    color:#1a3b51;
+    position: relative;
+}
+.blue:hover{
+    filter: brightness(.8);
+}
+
+.text-h1{
+    padding: 35px;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: #3180b4;
+}
+.photo-p{
+    margin: 20px 0 0 0 ;
+    position: absolute;
+    padding: 40px;
+    width: 450px;
+    height: 650px;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+.text-p{
+    color: #3180b4;
+    position: absolute;
+    margin: 100px 0 0 0 ;
+    margin-left:550px;
+    padding: 50px 0 0 0;
+    flex-wrap: nowrap;
+    z-index: 1;
+    display: flex;
+    /* justify-content: space-between;
+    align-items: center; */
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.quadros{
+    width: 400px;
+    height: 1px;
+    background-color:#9ed5fa;
+    z-index: 1;
+    position: absolute;
+    margin: 30px 0 0 0 ;
+    margin-left: 490px;
+    display: flex;
+}
+.body-next{
+    background-color: #678da7;
+    margin: 0;
+    width: 1450px;
+    height: 950px;
+}
+.text-h1n{
+    padding: 35px;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: #1a3b51; 
+}
+.text-pn{
+    color: #1a3b51;
+    position: absolute;
+    margin: 10px 0 0 0 ;
+    margin-left:100px;
+    padding: 50px 0 0 0;
+    flex-wrap: nowrap;
+    z-index: 1;
+    display: flex;
+    /* justify-content: space-between;
+    align-items: center; */
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.movie-card{
+    margin: 200px 0 0 0 ;
+    margin-left:100px;
+    position: absolute;
+    padding: 40px;
+    width: 350px;
+    height: 450px;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+.card:hover{
+    filter: brightness(.8);
+}
+
+.museum-card{
+    margin: 200px 0 0 0 ;
+    margin-left:600px;
+    position: absolute;
+    padding: 40px;
+    width: 650px;
+    height: 90px;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+.ozon-card{
+    margin: 350px 0 0 0 ;
+    margin-left: 600px;
+    position: absolute;
+    padding: 40px;
+    width: 650px;
+    height: 200px;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+.text-pns{
+    color: #1a3b51;
+    position: absolute;
+    margin: 600px 0 0 0 ;
+    margin-left:800px;
+    padding: 50px 0 0 0;
+    flex-wrap: nowrap;
+    z-index: 1;
+    display: flex;
+    /* justify-content: space-between;
+    align-items: center; */
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
