@@ -1,16 +1,15 @@
 
 body{
    /* background-color: #3998d7; */
-   /* width: 1500px;
-   max-height: 500px ; */
-   /* height: 1000px; */
+   width: 100vw;
+   height: 200vh;
    margin: 0;
 }
 .header-visit{
     background-color: #3998d7;
     margin: 0;
     width: 1450px;
-    height: 100px;
+    height: 600px;
 }
 .header{
     background-color: #3180b4;
